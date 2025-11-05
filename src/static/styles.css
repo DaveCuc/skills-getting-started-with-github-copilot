@@ -142,3 +142,68 @@ footer {
   padding: 20px;
   color: #666;
 }
+
+.participants-section {
+  margin-top: 12px;
+  padding-top: 8px;
+  border-top: 1px dashed #eee;
+}
+
+.participants-section h5 {
+  margin: 0 0 8px 0;
+  font-size: 14px;
+  color: #1a237e;
+}
+
+/* Make participant items look like badges */
+.participants-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.participants-list li {
+  margin: 0;
+}
+
+/* badge style */
+.participant-badge {
+  background-color: #e3f2fd;
+  color: #0d47a1;
+  padding: 6px 10px;
+  border-radius: 20px;
+  border: 1px solid #90caf9;
+  font-size: 14px;
+  display: inline-block;
+}
+
+/* muted text when no participants */
+.no-participants {
+  color: #777;
+  font-style: italic;
+  padding: 6px 0;
+}
+
+/* style for the small delete/unregister button next to each participant */
+.delete-participant {
+  background: transparent;
+  border: none;
+  color: #c62828;
+  margin-left: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 0 6px;
+  border-radius: 12px;
+  line-height: 1;
+  font-size: 16px;
+}
+.delete-participant:hover {
+  background: rgba(198, 40, 40, 0.08);
+}
+
+.participant-email {
+  vertical-align: middle;
+}
